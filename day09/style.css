@@ -1,0 +1,47 @@
+/* .text1 {
+    display: inline-block;
+
+}
+.subtext {
+    display: inline-block;
+}
+.text2 {
+    display: inline-block;
+} */
+
+/* .text1 {
+    display: flex;
+} */
+
+/* body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    border: 5px solid red;
+    display: flex;
+    width: calc(100vw - 20px);
+    height: calc(100vh - 20px);
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+img {
+    margin: 20px;
+} */
+
+#main {
+    width: 220px;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#myBlueDiv {
+    align-self: flex-start;
+    order: -1;
+}
+
